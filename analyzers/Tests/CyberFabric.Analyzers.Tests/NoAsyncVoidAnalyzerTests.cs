@@ -9,7 +9,7 @@ using Verify = CSharpAnalyzerVerifier<NoAsyncVoidAnalyzer, DefaultVerifier>;
 public class NoAsyncVoidAnalyzerTests
 {
     [Fact]
-    public async Task Async_void_method_reports_CA0006()
+    public async Task Async_void_method_reports_DE1301()
     {
         var code = @"
 class C

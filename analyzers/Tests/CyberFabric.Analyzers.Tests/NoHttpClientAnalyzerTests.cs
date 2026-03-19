@@ -9,7 +9,7 @@ using Verify = CSharpAnalyzerVerifier<NoHttpClientAnalyzer, DefaultVerifier>;
 public class NoHttpClientAnalyzerTests
 {
     [Fact]
-    public async Task New_HttpClient_reports_CA0002()
+    public async Task New_HttpClient_reports_DE0301()
     {
         var code = @"
 using System.Net.Http;

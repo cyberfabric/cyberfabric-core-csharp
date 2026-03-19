@@ -9,7 +9,7 @@ using Verify = CSharpAnalyzerVerifier<NoConsoleUsageAnalyzer, DefaultVerifier>;
 public class NoConsoleUsageAnalyzerTests
 {
     [Fact]
-    public async Task Console_WriteLine_reports_CA0001()
+    public async Task Console_WriteLine_reports_DE1302()
     {
         var code = @"
 class Program

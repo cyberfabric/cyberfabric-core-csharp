@@ -9,7 +9,7 @@ using Verify = CSharpAnalyzerVerifier<NoTaskResultAnalyzer, DefaultVerifier>;
 public class NoTaskResultAnalyzerTests
 {
     [Fact]
-    public async Task Task_Result_reports_CA0005()
+    public async Task Task_Result_reports_DE1303()
     {
         var code = @"
 using System.Threading.Tasks;
@@ -26,7 +26,7 @@ class C
     }
 
     [Fact]
-    public async Task GetAwaiter_GetResult_reports_CA0005()
+    public async Task GetAwaiter_GetResult_reports_DE1303()
     {
         var code = @"
 using System.Threading.Tasks;
