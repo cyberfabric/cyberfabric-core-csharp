@@ -19,11 +19,11 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\DE13_common_patterns\CyberFabric.Analyzers.NoAsyncVoid\CyberFabric.Analyzers.NoAsyncVoid.csproj" />
-        <ProjectReference Include="..\..\DE13_common_patterns\CyberFabric.Analyzers.NoConsoleUsage\CyberFabric.Analyzers.NoConsoleUsage.csproj" />
-        <ProjectReference Include="..\..\DE02_api_layer\CyberFabric.Analyzers.NoExplicitRouteAttributes\CyberFabric.Analyzers.NoExplicitRouteAttributes.csproj" />
-        <ProjectReference Include="..\..\DE03_domain_layer\CyberFabric.Analyzers.NoHttpClient\CyberFabric.Analyzers.NoHttpClient.csproj" />
-        <ProjectReference Include="..\..\DE13_common_patterns\CyberFabric.Analyzers.NoTaskResult\CyberFabric.Analyzers.NoTaskResult.csproj" />
+        <ProjectReference Include="..\..\DE13_common_patterns\DE1301_no_async_void\CyberFabric.Analyzers.NoAsyncVoid.csproj" />
+        <ProjectReference Include="..\..\DE13_common_patterns\DE1302_no_console\CyberFabric.Analyzers.NoConsoleUsage.csproj" />
+        <ProjectReference Include="..\..\DE02_api_layer\DE0301_no_explicit_route_attributes\CyberFabric.Analyzers.NoExplicitRouteAttributes.csproj" />
+        <ProjectReference Include="..\..\DE03_domain_layer\DE0301_no_http_client\CyberFabric.Analyzers.NoHttpClient.csproj" />
+        <ProjectReference Include="..\..\DE13_common_patterns\DE1303_no_task_result\CyberFabric.Analyzers.NoTaskResult.csproj" />
     </ItemGroup>
 
     <ItemGroup>

@@ -1,24 +1,24 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberFabric.Analyzers.NoConsoleUsage", "DE13_common_patterns\CyberFabric.Analyzers.NoConsoleUsage\CyberFabric.Analyzers.NoConsoleUsage.csproj", "{0E459764-FC93-4ED2-893D-2B70AD44BFE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberFabric.Analyzers.NoConsoleUsage", "DE13_common_patterns\DE1302_no_console\CyberFabric.Analyzers.NoConsoleUsage.csproj", "{0E459764-FC93-4ED2-893D-2B70AD44BFE5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{F633DE62-0D35-4369-89E3-B497D170B3FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoConsoleUsageSample", "Samples\NoConsoleUsageSample\NoConsoleUsageSample.csproj", "{F747CB97-362D-4E40-8820-1C965EA95E6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberFabric.Analyzers.NoExplicitRouteAttributes", "DE02_api_layer\CyberFabric.Analyzers.NoExplicitRouteAttributes\CyberFabric.Analyzers.NoExplicitRouteAttributes.csproj", "{F57DC8E8-B23B-46CC-BC99-4AE08839B359}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberFabric.Analyzers.NoExplicitRouteAttributes", "DE02_api_layer\DE0301_no_explicit_route_attributes\CyberFabric.Analyzers.NoExplicitRouteAttributes.csproj", "{F57DC8E8-B23B-46CC-BC99-4AE08839B359}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberFabric.Analyzers.NoHttpClient", "DE03_domain_layer\CyberFabric.Analyzers.NoHttpClient\CyberFabric.Analyzers.NoHttpClient.csproj", "{D6021B45-AC37-4422-806E-BFBB6127BA77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberFabric.Analyzers.NoHttpClient", "DE03_domain_layer\DE0301_no_http_client\CyberFabric.Analyzers.NoHttpClient.csproj", "{D6021B45-AC37-4422-806E-BFBB6127BA77}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoHttpClientUsageSample", "Samples\NoHttpClientUsageSample\NoHttpClientUsageSample.csproj", "{B2D1BE04-8EF5-4AED-95EA-B827BA7515A9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoExplicitRouteAttributesSample", "Samples\NoExplicitRouteAttributesSample\NoExplicitRouteAttributesSample.csproj", "{CA481916-EEB7-46CE-902E-2666B3B20845}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberFabric.Analyzers.NoTaskResult", "DE13_common_patterns\CyberFabric.Analyzers.NoTaskResult\CyberFabric.Analyzers.NoTaskResult.csproj", "{37E8D6B9-D660-4258-A6F1-5D147C24F765}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberFabric.Analyzers.NoTaskResult", "DE13_common_patterns\DE1303_no_task_result\CyberFabric.Analyzers.NoTaskResult.csproj", "{37E8D6B9-D660-4258-A6F1-5D147C24F765}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoTaskResultSample", "Samples\NoTaskResultSample\NoTaskResultSample.csproj", "{AF2A2503-7082-42E6-BDEC-27F8EC15284B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberFabric.Analyzers.NoAsyncVoid", "DE13_common_patterns\CyberFabric.Analyzers.NoAsyncVoid\CyberFabric.Analyzers.NoAsyncVoid.csproj", "{C76BBE74-6A32-4451-BF30-E24FF56C8558}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberFabric.Analyzers.NoAsyncVoid", "DE13_common_patterns\DE1301_no_async_void\CyberFabric.Analyzers.NoAsyncVoid.csproj", "{C76BBE74-6A32-4451-BF30-E24FF56C8558}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoAsyncVoidSample", "Samples\NoAsyncVoidSample\NoAsyncVoidSample.csproj", "{179615A2-8E6C-428F-8C7F-B4460C390A53}"
 EndProject

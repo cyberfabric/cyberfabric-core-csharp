@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\DE13_common_patterns\CyberFabric.Analyzers.NoConsoleUsage\CyberFabric.Analyzers.NoConsoleUsage.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+        <ProjectReference Include="..\..\DE13_common_patterns\DE1302_no_console\CyberFabric.Analyzers.NoConsoleUsage.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
     </ItemGroup>
 
 </Project>
