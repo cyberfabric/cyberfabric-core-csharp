@@ -1,6 +1,0 @@
-@RoutesMustHaveVersionSample_HostAddress = http://localhost:5064
-
-GET {{RoutesMustHaveVersionSample_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
