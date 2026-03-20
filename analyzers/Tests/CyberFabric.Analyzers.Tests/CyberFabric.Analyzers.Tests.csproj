@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsPackable>false</IsPackable>
+        <IsTestProject>true</IsTestProject>
+        <RootNamespace>CyberFabric.Analyzers.Tests</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+        <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Analyzer.Testing" Version="1.1.3" />
+        <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="5.3.0" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+        <PackageReference Include="xunit" Version="2.5.3" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\DE13_common_patterns\DE1301_no_async_void\CyberFabric.Analyzers.NoAsyncVoid.csproj" />
+        <ProjectReference Include="..\..\DE13_common_patterns\DE1302_no_console\CyberFabric.Analyzers.NoConsoleUsage.csproj" />
+        <ProjectReference Include="..\..\DE02_api_layer\DE0201_no_explicit_route_attributes\CyberFabric.Analyzers.NoExplicitRouteAttributes.csproj" />
+        <ProjectReference Include="..\..\DE03_domain_layer\DE0301_no_http_client\CyberFabric.Analyzers.NoHttpClient.csproj" />
+        <ProjectReference Include="..\..\DE13_common_patterns\DE1303_no_task_result\CyberFabric.Analyzers.NoTaskResult.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Using Include="Xunit" />
+    </ItemGroup>
+
+</Project>
